@@ -1,0 +1,387 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.cabecera {
+    display: flex;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.cabecera__imagen {
+    width: 8vw;
+}
+.cabecera__imagen_container{
+    width: 20%;
+    text-align: center;
+}
+
+.cabecera__lista__link {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.cabecera__navegacion__lista li {
+    display: inline-block;
+    margin: 1vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.cabecera__navegacion__lista {
+    margin-top: 2vw;
+}
+
+.cabecera__navegacion {
+    width: 80%;
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.fondo__seccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagenFondo {
+    width: 100vw;
+    height: 41vw;
+    background-image: url(./imagenes/index/thehomestudio1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.fondo__seccion p {
+    width: 50vw;
+    font-size: 4vw;
+    color: white;
+    text-align: center;
+}
+
+/*.texto__seccion {
+    display: flex;
+    justify-content: center;
+    font-size: 5rem;
+    color: yellow;
+    overflow: hidden;
+    /*text-align: center;
+}*/
+
+.porqueNosotros__titulos {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.porqueNosotros__imagenes {
+    width: 6vw;
+}
+.porqueNosotros__texto {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.seccion__titulo {
+    display: flex;
+    justify-content: center;
+    padding: 2vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-size: 1vw;
+}
+
+.seccion__index{
+    height: 10vw;
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    display: flex;
+}
+.seccion__index__img {
+    margin: 2vw;
+    margin-top: 0;
+}
+
+.footer {
+    background-color: gray;
+    width: 100%;
+    height: 20vh;
+}
+
+.footer__ul {
+    list-style: none;
+}
+
+.footer__redesSociales {
+    width: 2vw;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+
+.li__facebook {
+    margin-right: 1vw;
+}
+
+.li__instagram {
+    margin-left: 1vw;
+}
+
+.contactanos {
+    display: flex;
+    justify-content: center;
+    padding: 1vw;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.whatsapp__icono {
+    width: 1vw;
+    margin-right: 1vw;   
+}
+
+.whatsapp {
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.correo__icono {
+    width: 1vw;
+    margin-right: 1vw;
+}
+
+.correo {
+    display: flex;
+    justify-content: center;
+    padding: 0.5vw;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.mastering__titulo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2vw;
+    padding-top:vw;
+    padding-bottom: 1vw;
+    box-shadow: 5px 5px 20px;
+}
+
+.mastering__subtitulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1vw;
+    font-style: italic;
+    padding-top: 2vw;
+}
+
+.mastering__imagen__1 {
+    display: flex;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    box-shadow: 10px 10px 20px;
+    
+}
+
+.mastering__imagen__contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.mix__titulo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2vw;
+    padding-top:vw;
+    padding-bottom: 1vw;
+    box-shadow: 5px 5px 20px;
+}
+
+.mix__subtitulo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1vw;
+    font-style: italic;
+    padding-top: 2vw;
+}
+
+.mix__imagen__1 {
+    display: flex;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    box-shadow: 10px 10px 20px; 
+}
+
+.mix__imagen__contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.body__contacto {
+    background: black;
+}
+
+.main__contacto {
+    color: white;
+    margin-bottom: 8.6vh;
+}
+
+.contacto__contenedor {
+    max-width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem;
+    background: #222222;
+}
+
+.contactanos__contacto {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.contacto__formulario {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+    padding: 1em;
+}
+
+.contacto__formulario form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contacto__formulario form .bloquear {
+    grid-column: 1 / 3;
+}
+
+.contacto__formulario form p {
+    margin: 0;
+    padding: 1em;
+}
+
+
+.contacto__formulario form input,
+.contacto__formulario form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: white;
+    border-bottom: 1px solid #d63031;
+}
+
+
+.contacto__formulario form button {
+    background: #b70e21;
+    color: white;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+    width: 8vw;
+    text-align: center;
+    margin-left: 18vw;
+}
+
+.contacto__formulario form {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.35rem;
+}
+
+.cabecera__lista__item:hover{
+    transform: scale(1.5);
+}
+
+.cabecera__lista__item{
+    transition: transform 0.5s;
+}
+
+
+
+@media (max-width:1400px){
+    .cabecera__imagen{
+        width: 12vw;
+    }
+
+    .cabecera__navegacion__lista{
+        font-size: 2vw;
+        margin-top: 3vw;  
+    }
+
+
+    .seccion__index{
+        height: 20vw;
+
+    }
+
+    .seccion__titulo{
+        font-size: 2vw;
+        margin-bottom: 6vw;
+    }
+
+}
+
+@media (max-width:750px){
+
+    .seccion__index{
+        height: 30vw;
+    }
+
+
+}
+
+@media (max-width:610px){
+    .cabecera__imagen{
+        width: 18vw;
+    }
+
+    .cabecera__navegacion__lista{
+        font-size: 3vw;
+        margin-top: 5vw;  
+    }
+
+    .seccion__index{
+        height: 40vw;
+    }
+}
+@media (max-width:540px){
+
+    .seccion__index{
+        height: 50vw;
+    }
+}
+
+@media (max-width:460px){
+
+    .seccion__index{
+        height: 60vw;
+    }
+}
+
